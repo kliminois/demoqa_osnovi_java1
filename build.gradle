@@ -16,6 +16,7 @@ dependencies { //Зависимости
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8' //Если проблема с кодировкой
 }
+
 test {
     useJUnitPlatform() //Для добавления зеленой кнопки запуска тестов в среде разработки
 }
