@@ -25,6 +25,7 @@ public class Main {
         System.out.println("b равно с? " + (b == c));
         System.out.println("b больше или равно с? " + (b >= c) + "\n");
 
+
         // Переполнение и диапазоны
         d = Double.MAX_VALUE;
         System.out.println("Переполнение при арифметической операции");
